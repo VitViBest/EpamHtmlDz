@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Helvetica-Neue-Light;
+    src: url(Fonts/HelveticaNeueLight.ttf);
+}
+
+@font-face {
+    font-family: Helvetica-Neue-Bold;
+    src: url(Fonts/HelveticaNeueBold.ttf);
+}
+
+@font-face {
+    font-family: Helvetica-Normal;
+    src: url(Fonts/Helvetica-Normal.ttf);
+}
+
+#facebook {
+    background-color: #1287bf;
+}
+
+#facebook-header>h1,
+#facebook-header>p {
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+#facebook-header>h1 {
+    font-family: Helvetica-Neue-Bold;
+    font-size: 36px;
+}
+
+#facebook-header>p {
+    font-family: Helvetica-Neue-Light;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+#cyrcle {
+    border: 3px solid #fff;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#cyrcle>img {
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+    width: 30px;
+    height: 30px;
+}
+
+#facebook-form {
+    position: relative;
+    transition: 1s;
+    margin-top: 70px;
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 5px;
+    padding-bottom: 45px;
+}
+
+.input-text {
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 45px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 1px solid #c7c6c6;
+    border-radius: 5px;
+    outline: none;
+    color: #828282;
+    font-family: Helvetica-Normal;
+}
+
+.input-text:focus {
+    border: 2px solid #64b0d5;
+    border-radius: 5px;
+}
+
+.input-text:hover {
+    border: 2px solid #7ee6c5;
+    border-radius: 5px;
+}
+
+.input-button {
+    display:inline-block;
+    margin: auto;
+    padding: 15px;
+    margin-top: 40px;
+    background-color: #de2b24;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Helvetica-Neue-Bold;
+    font-size: 16px;
+}
+
+.input-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#submit-container{
+    text-align: center;
+}
+
+.input-text::placeholder {
+    color: #828282;
+    font-family: Helvetica-Normal;
+    opacity: .8;
+}
+
+#facebook-form>p {
+    margin-top: 40px;
+    color: #8a8a8a;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+#close {
+    position: absolute;
+    right: -23px;
+    top: -23px;
+    width: 50px;
+    height: 50px;
+    background-color: #de2b24;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 15px;
+    transition: 0s;
+}
+
+#close:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    transform:rotate(180deg);
+}
+
+#close:active {
+    outline: none;
+}
+
+#triangle {
+    width: 0px;
+    margin: auto;
+    margin-top: -150px;
+    border: 50px solid transparent;
+    border-bottom: 50px solid white;
+}
+
+.closed {
+    transform: rotate(180deg);
+}
