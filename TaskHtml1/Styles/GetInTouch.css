@@ -122,12 +122,12 @@
     font-size: 19px;
 }
 
-#subscribe-form>div>.submit:hover{
+#subscribe-form>div>.submit:hover {
     cursor: pointer;
     border: 2px solid #f57c7c;
     border-radius: 4px;
 }
 
-#subscribe-container{
+#subscribe-container {
     text-align: center;
 }

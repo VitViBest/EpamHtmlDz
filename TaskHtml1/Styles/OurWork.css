@@ -12,8 +12,7 @@
     background-color: #de2b24;
 }
 
-#our-work-header>h1,
-#our-work-header>p {
+#our-work-header>h1, #our-work-header>p {
     margin: auto;
     color: #fff;
     text-align: center;
@@ -65,7 +64,8 @@
     height: 100%;
 }
 
-.image-content, .text-content {
+.image-content, 
+.text-content {
     transition: 0.5s;
 }
 
@@ -92,7 +92,8 @@
     margin-bottom: 5%;
 }
 
-.text-content>h4, .text-content>p {
+.text-content>h4, 
+.text-content>p {
     color: #fff;
     text-align: center;
     font-family: Helvetica-Neue-Bold;
